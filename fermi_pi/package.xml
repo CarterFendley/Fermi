@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>fermi-pi</name>
+  <name>fermi_pi</name>
   <version>0.0.0</version>
-  <description>The fermi-pi package</description>
+  <description>The fermi_pi package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->
@@ -19,7 +19,7 @@
   <!-- Url tags are optional, but multiple are allowed, one per tag -->
   <!-- Optional attribute type can be: website, bugtracker, or repository -->
   <!-- Example: -->
-  <!-- <url type="website">http://wiki.ros.org/fermi-pi</url> -->
+  <!-- <url type="website">http://wiki.ros.org/fermi_pi</url> -->
 
 
   <!-- Author tags are optional, multiple are allowed, one per tag -->
@@ -49,9 +49,9 @@
   <!-- Use doc_depend for packages you need only for building documentation: -->
   <!--   <doc_depend>doxygen</doc_depend> -->
   <buildtool_depend>catkin</buildtool_depend>
-  <build_depend>rosserial</build_depend>
-  <build_export_depend>rosserial</build_export_depend>
-  <exec_depend>rosserial</exec_depend>
+  <build_depend>rosserial_python</build_depend>
+  <build_export_depend>rosserial_python</build_export_depend>
+  <exec_depend>rosserial_python</exec_depend>
 
 
   <!-- The export tag contains other, unspecified, tags -->
