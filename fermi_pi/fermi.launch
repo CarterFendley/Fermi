@@ -1,6 +1,7 @@
 <launch>
+    <env name="ROS_MASTER_URI" value="http://10.0.0.244:11311"/>
+    <enb name="ROS_IP" value="10.0.0.244"/>
     <node name="serial_node" pkg="rosserial_python" type="serial_node.py">
-        <param name="port" value="/dev/ttyAMA0"/>
-        <param name="baud" value="115200">
+        <param name="port" value="/dev/ttyUSB0"/>
     </node>
 </launch>
